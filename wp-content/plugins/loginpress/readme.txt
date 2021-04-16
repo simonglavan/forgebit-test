@@ -4,7 +4,7 @@ Tested up to: 5.7
 Contributors: WPBrigade, hiddenpearls, AbdulWahab610
 Author URI: https://wpbrigade.com/?utm_source=loginpress-lite&utm_medium=author-url-link
 Tags: wp-login, login, login customizer, custom login, wordpress login,
-Stable tag: 1.5.1
+Stable tag: 1.5.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -216,6 +216,11 @@ Please visit <a target="_blank" rel="friend" href="https://WPBrigade.com/wordpre
 23. Custom Login page (Company theme) Example #23 with Captcha [Pro feature](https://WPBrigade.com/wordpress/plugins/loginpress-pro/?utm_source=loginpress-lite&utm_medium=screenshots&utm_campaign=pro-upgrade)
 
 == Changelog ==
+
+= 1.5.2 – 2021-04-08 =
+* Bugfix: Console error in customizer.
+* Bugfix: Optimized plugin speed and code improvement.
+* Compatibility: Compatible with PHP 8.0.
 
 = 1.5.1 – 2021-03-18 =
 * Update: French language.
@@ -584,5 +589,5 @@ Please visit <a target="_blank" rel="friend" href="https://WPBrigade.com/wordpre
 
 == Upgrade Notice ==
 
-= 1.5.1 =
+= 1.5.2 =
 * Important Release, upgrade immediately. Compatible with 5.7

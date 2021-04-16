@@ -4,7 +4,7 @@ Contributors: awelzel
 Tags: attachments, images, gallery, lightbox, fancybox, photoswipe
 Requires at least: 4.0
 Tested up to: 5.7
-Stable tag: 3.1.10
+Stable tag: 3.1.11
 Donate link: https://paypal.me/ArnoWelzel
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -124,9 +124,9 @@ pswp__caption__exif_focal, pswp__caption__exif_fstop, pswp__caption__exif_shutte
 
 PhotoSwipe has the option to create a zoom animation from the thumbnail to the final image when opening the lightbox. However, this does not work well with square thumbnails since the thumbnail is just enlarged to the final image size without keeping its aspect ratio. This would result in a quite weird image display where a square thumbnail gets stretched to a portrait or landscape image before the final image is loaded. Just having a black background where the final image gets loaded seems to be the better solution. Also see [http://photoswipe.com/documentation/faq.html](http://photoswipe.com/documentation/faq.html) about this topic.
 
-= Conflict with Advanced Gutenberg =
+= Conflict with PublishPress Blocks (Advanced Gutenberg Blocks) =
 
-Lightbox with PhotoSwipe works fine with Gutenberg gallery blocks as well. However when you use the "Advanced Gutenberg" plugin it brings its own lightbox script which can cause conflicts. To avoid any problems, you should disable the Advanced Gutenberg lightbox in the settings. Disable the option "Open galleries in lightbox" in the backend configuration of Advanced Gutenberg.
+Lightbox with PhotoSwipe works fine with Gutenberg gallery blocks as well. However when you use the "PublishPress Blocks" plugin it brings its own lightbox script which can cause conflicts. To avoid any problems, you should disable the Advanced Gutenberg lightbox in the settings. Disable the option "Open galleries in lightbox" in the backend configuration of PublishPress Blocks.
 
 = How to use the PhotoSwipe API? =
 
@@ -164,9 +164,11 @@ The following changes are the differences to PhotoSwipe 4.0 as of 2020-04-14:
 
 12) Added options to use the mouse wheel for zooming or switching images in desktop view.
 
-13) Added option to add "onclick" handlers for sharing links
+13) Added option to add "onclick" handlers for sharing links.
 
-14) Added option to add a custom URL for sharing links
+14) Added option to add a custom URL for sharing links.
+
+15) Fullscreen mode hides navigation buttons on mobile devices if possible.
 
 = Licensing =
 
@@ -183,6 +185,11 @@ To avoid any confusion: this plugin was published with the agreement of Dmitry S
 7. Example for the use in the frontend
 
 == Changelog ==
+
+= 3.1.11 =
+
+* Added translation for "German formal".
+* Fullscreen view hides navigation on mobile devices if possible.
 
 = 3.1.10 =
 

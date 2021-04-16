@@ -2,7 +2,7 @@
  * Customizer Communicator
  *
  * @since 1.0.23
- * @version 1.5.1
+ * @version 1.5.2
  */
 ( function ( exports, $ ) {
 	"use strict";
@@ -30,8 +30,10 @@
 			$(document).on( 'click', '.control-subsection', function() {
 				// if not multisites. 1.1.3
 				if (! $("#customize-preview iframe").hasClass('loginpress_multisite_active') ) {
-					var trigger = $(this).attr('aria-owns').replace("sub-accordion-section-", "");
-					$('#customize-preview iframe').contents().find('[data-customizer-event="'+trigger+'"]').parent().addClass('active');
+					if( $(this).attr('aria-owns') !== undefined ){
+						var trigger = $(this).attr('aria-owns').replace("sub-accordion-section-", "");
+						$('#customize-preview iframe').contents().find('[data-customizer-event="'+trigger+'"]').parent().addClass('active');
+					}
 				}
 			} );
 			$('#customize-controls h3.loginpress-group-heading').each(function(){
