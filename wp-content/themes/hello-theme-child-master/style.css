@@ -15,3 +15,58 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
 /*
     Add your custom styles here
 */
+
+/* CONTACT FORM */
+form#gform_1 input,
+form#gform_1 select {
+	border: 1px solid #00908e;
+	color: #d82d39;
+	font-weight: 700;
+}
+form#gform_1 label {
+	color: #00908e;
+}
+
+input#gform_submit_button_1 {
+	background: #00908e;
+	color: #fff !important;
+	border: 0 !important;
+}
+
+input#gform_submit_button_1:hover {
+	background: #d82d39;
+	color: #fff !important;
+}
+
+label.gfield_consent_label {
+	margin-bottom: 7px;
+}
+
+/* width */
+form#gform_1 select::-webkit-scrollbar {
+	width: 10px;
+}
+
+/* Track */
+form#gform_1 select::-webkit-scrollbar-track {
+	background: #00908e;
+}
+
+/* Handle */
+form#gform_1 select::-webkit-scrollbar-thumb {
+	background: #d82d39;
+}
+
+/* Handle on hover */
+form#gform_1 select::-webkit-scrollbar-thumb:hover {
+	background: #d82d39;
+}
+
+input.elementor-search-form__input {
+    border-bottom: 3px solid red !important;
+}
+
+.dialog-lightbox-close-button.dialog-close-button {
+    top: 30px;
+    font-size: 40px;
+}
